@@ -68,7 +68,7 @@ p {
 }
 
 /* 16px font size for paragraph element */
-.hero {
+.main-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -77,6 +77,7 @@ p {
     background-position: center;
 }
 
+/* changed class name to an appropriate description */
 /* sets parameters for main image banner*/
 .float-left {
     float: left;
