@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* applies listed CSS properties to all elements */
+/* applies listed CSS properties to all elements, applies padding and border to all elements' width and height */
 
 body {
     background-color: #d9dcd6;
@@ -88,7 +88,8 @@ p {
     margin-left: 25px;
 }
 
-/* float-left and float-right sets margin parameters and position relative to their accompanying text */
+/* float-left and float-right sets margin parameters and position 
+for images in content section relative to their accompanying text */
 .content {
     width: 75%;
     display: inline-block;
@@ -106,100 +107,27 @@ p {
     background-color: #2589bd;
 }
 
-/* .benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-} */
-
 .benefit-section {
 
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* consolidated previous 3 ".benefit-%" classes into one class*/
 
-/* .benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* consolidated previous 3 .benefit-% classes into one class*/
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-} */
 
 .benefit-section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidated previous 3 <h3> ".benefit-%" selectors into one class*/
-
-/* .benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-} */
+/* consolidated previous 3 h3 .benefit-% selectors into one class*/
 
 .benefit-section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
 
 .benefit-list {
     margin-bottom: 20px;
@@ -213,38 +141,13 @@ p {
 
 /* consolidated previous classes in <aside> element into one class  */
 
-/* .search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-} */
 
 .benefit-list img {
     max-height: 200px;
 }
 
-/* consolidated previous img sleector into  */
+/* consolidated previous img selector into one class */
 
-/* .search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-} */
 
 .benefit-list h2 {
     margin-bottom: 20px;
@@ -260,10 +163,11 @@ p {
     text-align: center;
 }
 
-/* footer class pushes footer element underneath floated elements above it and applies padding and text properties */
+/* footer class pushes footer element underneath floated elements above it
+ and applies padding, text properties */
 
-.footer h2 {
+.footer h4 {
     font-size: 20px;
 }
 
-/* applies specified font size to <h2> element within footer */
+/* applies specified font size to h4 - changed from h2 element - within footer */
