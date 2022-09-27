@@ -12,7 +12,7 @@ body {
 
 /* applies specified background color to body element */
 
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -21,20 +21,20 @@ body {
 
 /* applies listed CSS properties to header element - changed from div tag */
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
 /* changes <h1> in header to inline-block display and adjusts font size */
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* applies specified color to string "seo" in <h1> header text "Horiseon" */
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -44,13 +44,13 @@ body {
 
 /* applies listed CSS properties to navigation bar within the header element - changed from <div> to <nav> */
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
 /* applies listed CSS properties to unordered list within the navigation bar within the header element - changed from <div> to <nav> */
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -62,7 +62,7 @@ a {
     text-decoration: none;
 }
 
-/* formats header <nav> links to be white and removes default hyperlink format */
+/* formats header nav links to be white and removes default hyperlink format */
 p {
     font-size: 16px;
 }
@@ -91,13 +91,13 @@ p {
 
 /* float-left and float-right sets margin parameters and position 
 for images in content section relative to their accompanying text */
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+aside{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -108,29 +108,26 @@ for images in content section relative to their accompanying text */
     background-color: #2589bd;
 }
 
-.benefit-section {
+aside section {
 
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/* consolidated previous 3 .benefit-% classes into one class*/
-
-
-.benefit-section h3 {
+aside section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* consolidated previous 3 h3 .benefit-% selectors into one class*/
 
-.benefit-section img {
+aside section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
+/* consolidated previous classes into aside element  */
 
-.benefit-list {
+main section{
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,21 +140,21 @@ for images in content section relative to their accompanying text */
 /* consolidated previous classes in <aside> element into one class  */
 
 
-.benefit-list img {
+main section img {
     max-height: 200px;
 }
 
 /* consolidated previous img selector into one class */
 
 
-.benefit-list h2 {
+main section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* applies listed margin and font properties to <h2> elements within benefit-list class  */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -167,7 +164,7 @@ for images in content section relative to their accompanying text */
 /* footer class pushes footer element underneath floated elements above it
  and applies padding, text properties */
 
-.footer h4 {
+footer h4 {
     font-size: 20px;
 }
 
