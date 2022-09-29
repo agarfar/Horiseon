@@ -53,6 +53,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    
 }
 
 /* applies listed CSS properties to list element within unordered list within the navigation bar within the header element - changed from <div> to <nav> */
@@ -60,6 +61,7 @@ header nav ul li {
 a {
     color: #ffffff;
     text-decoration: none;
+    
 }
 
 /* formats header nav links to be white and removes default hyperlink format */
@@ -137,7 +139,7 @@ main section{
 
 }
 
-/* consolidated previous classes in <aside> element into one class  */
+/* consolidated previous classes in aside element into one selector  */
 
 
 main section img {
@@ -152,7 +154,7 @@ main section h2 {
     font-size: 36px;
 }
 
-/* applies listed margin and font properties to <h2> elements within benefit-list class  */
+/* applies listed margin and font properties to h2 elements within benefit-list class  */
 
 footer {
     padding: 30px;
