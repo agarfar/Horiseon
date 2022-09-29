@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* applies listed CSS properties to all elements, applies padding and border to all elements' width and height */
+/* applies padding, margin, and border settings to all elements' width and height */
 
 body {
     background-color: #d9dcd6;
@@ -19,20 +19,18 @@ header {
     color: #ffffff;
 }
 
-/* applies listed CSS properties to header element - changed from div tag */
+/* applies listed CSS properties to header element - formerly div */
 
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* changes <h1> in header to inline-block display and adjusts font size */
 
 header h1 .seo {
     color: #d9dcd6;
 }
 
-/* applies specified color to string "seo" in <h1> header text "Horiseon" */
 
 header nav {
     padding-top: 15px;
@@ -42,64 +40,61 @@ header nav {
     font-size: 20px;
 }
 
-/* applies listed CSS properties to navigation bar within the header element - changed from <div> to <nav> */
+/* changed from div to nav */
 
 header nav ul {
     list-style-type: none;
 }
 
-/* applies listed CSS properties to unordered list within the navigation bar within the header element - changed from <div> to <nav> */
+/*changed from div to nav */
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-    
+
 }
 
-/* applies listed CSS properties to list element within unordered list within the navigation bar within the header element - changed from <div> to <nav> */
+/* changed from div to <nav> */
 
 a {
     color: #ffffff;
     text-decoration: none;
-    
+
 }
 
-/* formats header nav links to be white and removes default hyperlink format */
-p {
-    font-size: 16px;
-}
-
-/* 16px font size for paragraph element */
-.main-image {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-/* changed class name to an appropriate description */
-/* sets parameters for main image banner*/
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* float-left and float-right sets margin parameters and position 
-for images in content section relative to their accompanying text */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-aside{
+/* applies layout properties to main element */
+
+main section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* consolidated previous classes in aside element into one selector  */
+
+
+main section img {
+    max-height: 200px;
+}
+
+/* consolidated previous img selectors into one selector */
+
+
+main section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -109,6 +104,8 @@ aside{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* applies layout, color, and text properties to aside element*/
 
 aside section {
 
@@ -127,34 +124,13 @@ aside section img {
     margin: 10px auto;
     max-width: 150px;
 }
-/* consolidated previous classes into aside element  */
+/* consolidated previous classes into aside element and selectors */
 
-main section{
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-
+p {
+    font-size: 16px;
 }
 
-/* consolidated previous classes in aside element into one selector  */
-
-
-main section img {
-    max-height: 200px;
-}
-
-/* consolidated previous img selector into one class */
-
-
-main section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* applies listed margin and font properties to h2 elements within benefit-list class  */
+/* 16px font size for paragraph elements for entire web page */
 
 footer {
     padding: 30px;
@@ -163,11 +139,34 @@ footer {
     text-align: center;
 }
 
-/* footer class pushes footer element underneath floated elements above it
+/* Pushes footer element underneath floated elements above it
  and applies padding, text properties */
 
 footer h4 {
     font-size: 20px;
 }
 
-/* applies specified font size to h4 - changed from h2 element - within footer */
+.main-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* changed class name from "hero" to more appropriate description */
+/* sets parameters for main image banner*/
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* float-left and float-right sets margin parameters and position 
+for images in content section relative to their accompanying text */
